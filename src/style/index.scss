@@ -1,12 +1,13 @@
 @charset "utf-8";
 // If need, change your variables before importing Bulma
-$title-color: #DADFF7;
+$title-color: #FFFFFF;
+$subtitle-color: #FFFFFF;
 $color: #DADFF7;
-$bg-color: #12031A;
+$bg-color: #011a30;
 @import "~bulma/bulma.sass";
 
 html {
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 body {
@@ -15,4 +16,23 @@ body {
 
 .navbar {
     background-color: transparent !important;
+}
+
+.navbar-item .navbar-start {
+    color: $color;
+}
+
+.column {
+    border: 1px solid white;
+}
+
+.columns {
+    align-items: center;
+    width: 100%;
+}
+
+.hero-body {
+    border: 1px solid wheat;
+    align-items: stretch !important;
+    width: 100%;
 }

@@ -10,20 +10,22 @@ import Seo from "../components/seo"
 
 import '../style/index.scss'
 
-const IndexPage = ({ data }) => (
-  <Layout>
+const IndexPage = ({ data }) => {
+  return (
+  
+  <Layout indexImage={data.indexImage}>
     <Seo title="Home" />
     {/* <GatsbyImage image={data.indexImage.childImageSharp.gatsbyImageData} /> */}
     
   </Layout>
-)
+)}
 
 export default IndexPage
 
 export const pageQuery = graphql`{
-  indexImage: file(relativePath: {eq: "hero.jpeg"}) {
+  indexImage: file(relativePath: {eq: "bg640.png"}) {
     childImageSharp {
-      gatsbyImageData(layout: FULL_WIDTH)
+      gatsbyImageData(layout: FULL_WIDTH, transformOptions: {cropFocus: ATTENTION})
     }
   }
 }

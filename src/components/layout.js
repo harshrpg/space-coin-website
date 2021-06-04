@@ -13,7 +13,7 @@ import Header from "./header"
 import "./layout.css"
 import Hero from "./Hero/hero"
 
-const Layout = ({ children }) => {
+const Layout = (props) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -27,14 +27,14 @@ const Layout = ({ children }) => {
   return (
     <>
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
-      <Hero />
+      <Hero indexImage={props.indexImage}/>
       <div
         style={{
           margin: `0 auto`,
           overflow: "hidden"
         }}
       >
-        <main>{children}</main>
+        <main>{props.children}</main>
         {/* <footer
           style={{
             marginTop: `2rem`,
