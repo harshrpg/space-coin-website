@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
 export default IndexPage
 
 export const pageQuery = graphql`{
-  indexImage: file(relativePath: {eq: "bg640.png"}) {
+  indexImage: file(relativePath: {eq: "bg3-440.png"}) {
     childImageSharp {
       gatsbyImageData(layout: FULL_WIDTH, transformOptions: {cropFocus: ATTENTION})
     }

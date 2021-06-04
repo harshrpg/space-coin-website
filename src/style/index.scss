@@ -3,12 +3,18 @@
 $title-color: #FFFFFF;
 $subtitle-color: #FFFFFF;
 $color: #DADFF7;
-$bg-color: #011a30;
+// $bg-color: #011a30;
+$bg-color: #021a2f;
+$navbar-item-color: $title-color;
 @import "~bulma/bulma.sass";
 
-// html {
-//     // overflow: hidden;
-// }
+html {
+    overflow: hidden;
+}
+
+@mixin bordercolor($color: white) {
+    border: 1px solid $color;
+}
 
 body {
     background-color: $bg-color;
@@ -22,9 +28,9 @@ body {
     color: $color;
 }
 
-.column {
-    border: 1px solid white;
-}
+// .column {
+//     @include bordercolor;
+// }
 
 .columns {
     align-items: center;
@@ -32,7 +38,7 @@ body {
 }
 
 .hero-body {
-    border: 1px solid wheat;
+    // @include bordercolor($color: wheat);
     align-items: stretch !important;
     width: 100%;
 }

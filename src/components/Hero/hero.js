@@ -1,6 +1,6 @@
 import * as React from "react"
 import Navbar from "../Navbar/navbar"
-import { GatsbyImage } from "gatsby-plugin-image"
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
 const Hero = props => (
   <div>
       <Navbar />
@@ -20,9 +20,10 @@ const Hero = props => (
               </div>
             </div>
             <div class="column">
-              <GatsbyImage
+              {/* <GatsbyImage
                 image={props.indexImage.childImageSharp.gatsbyImageData}
-              />
+              /> */}
+              <StaticImage src="../../images/bg3-440.png" alt="space-adobe-stock-licensed" />
             </div>
           </div>
         </div>
