@@ -1,21 +1,30 @@
 import * as React from "react"
 import Navbar from "../Navbar/navbar"
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
-const Hero = props => (
+import { StaticImage } from "gatsby-plugin-image"
+const Hero = () => (
   <div>
       <Navbar />
       <section class="hero is-fullheight-with-navbar">
         <div class="hero-body container">
           <div class="columns is-mobile">
-            <div class="column is-6">
+            <div class="column is-5">
               <div class="columns is-mobile">
                 <div class="column is-full">
-                  <p class="title">Space Coin</p>
+                  <p class="title is-size-1">Space Coin</p>
                 </div>
               </div>
               <div class="columns is-mobile">
                 <div class="column is-full">
-                  <p class="subtitle">Space Coin</p>
+                  <p class="subtitle is-size-6">
+                  Enter the new wave of Decentralized Finance.
+                  Strongly researched and backed by mathematics, Space Coin is here to 
+                  provide strong tokenomics to its holders.
+                  </p>
+                </div>
+              </div>
+              <div class="columns is-mobile">
+                <div class="column is-full">
+                <button class="button is-danger">Buy Now</button>
                 </div>
               </div>
             </div>

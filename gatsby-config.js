@@ -30,7 +30,10 @@ module.exports = {
     },
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-image`
+    `gatsby-plugin-image`,
+    `gatsby-plugin-smoothscroll`,
+    `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-anchor-links`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

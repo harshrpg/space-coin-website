@@ -9,10 +9,12 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
 import "./layout.css"
 import Hero from "./Hero/hero"
-
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
 const Layout = (props) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -35,7 +37,7 @@ const Layout = (props) => {
         }}
       >
         <main>{props.children}</main>
-        {/* <footer
+        <footer
           style={{
             marginTop: `2rem`,
           }}
@@ -43,7 +45,7 @@ const Layout = (props) => {
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer> */}
+        </footer>
       </div>
     </>
   )
