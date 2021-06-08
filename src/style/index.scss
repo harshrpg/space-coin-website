@@ -1,13 +1,12 @@
-
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import 'bulma';
-@import '~bulma-timeline';
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import "bulma";
+@import "~bulma-timeline";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
 // If need, change your variables before importing Bulma
-$title-color: #FFFFFF;
-$subtitle-color: #DBE4EE;
-$color: #DADFF7;
+$title-color: #ffffff;
+$subtitle-color: #dbe4ee;
+$color: #dadff7;
 // $bg-color: #011a30;
 $bg-color: #021a2f;
 $navbar-item-color: $title-color;
@@ -22,31 +21,31 @@ $f3-color: #f4511e;
 // }
 
 @mixin bordercolor($color: white, $style: solid) {
-    border: 1px $style $color;
+  border: 1px $style $color;
 }
 
 %flex-rows {
-    display: flex;
-    flex-direction: row;
-    margin: 1em;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  align-items: center;
 }
 
 .border-show {
-    @include bordercolor($style: dashed);
+  @include bordercolor($style: dashed);
 }
 
 body {
-    overflow-y: scroll;
-    background-color: $bg-color;
+  overflow-y: scroll;
+  background-color: $bg-color;
 }
 
 .navbar {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .navbar-item .navbar-start {
-    color: $color;
+  color: $color;
 }
 
 // .column {
@@ -54,46 +53,53 @@ body {
 // }
 
 .columns {
-    align-items: center;
-    width: 100%;
+  align-items: center;
+  width: 100%;
 }
 
 .hero-body {
-    // @include bordercolor($color: wheat);
-    align-items: stretch !important;
-    width: 100%;
+  // @include bordercolor($color: wheat);
+  align-items: stretch !important;
+  width: 100%;
 }
 
 .rows {
-    @extend %flex-rows;
-    flex-wrap: nowrap;
+  @extend %flex-rows;
+  flex-wrap: nowrap;
 }
 
 .rows-wrap {
-    @extend %flex-rows;
-    flex-wrap: wrap;
-
+  @extend %flex-rows;
+  flex-wrap: wrap;
 }
 
 #feature-1 {
-    color: $f1-color;
+  color: $f1-color;
 }
 
 #feature-2 {
-    color: $f2-color;
+  color: $f2-color;
 }
 
 #feature-3 {
-    color: $f3-color;
+  color: $f3-color;
 }
 
 .card {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 button {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
+}
+
+a:active {
+  color: #ffffff;
+}
+
+.navbar-menu {
+  background-color: transparent !important;
 }
 @import "~bulma/bulma.sass";
 // @import "bulmaCarousel.sass";

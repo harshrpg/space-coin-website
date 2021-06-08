@@ -14,6 +14,7 @@ const About = () => (
             <div class="columns ">
               <div class="column is-6">
                 <StaticImage
+                  class="image"
                   src="../../images/com_driven_640.png"
                   alt="adobe-stock-std-lic"
                 />
@@ -21,15 +22,19 @@ const About = () => (
               <div class="column is-6 has-text-centered">
                 <div class="columns ">
                   <div class="column is-full">
-                    <div id="feature-1" class="title is-size-3">Community Driven</div>
+                    <div id="feature-1" class="title is-size-3">
+                      Community Driven
+                    </div>
                   </div>
                 </div>
                 <div class="columns ">
                   <div class="column is-full">
                     <div class="subtitle">
                       <p>
-                        <span class="title is-size-5">Space Coin</span> is a community driven transaction protocol system. 
-                        The growth of this token is based on the fair participation of every one interested in it.
+                        <span class="title is-size-5">Space Coin</span> is a
+                        community driven transaction protocol system. The growth
+                        of this token is based on the fair participation of
+                        every one interested in it.
                       </p>
                     </div>
                   </div>
@@ -40,45 +45,56 @@ const About = () => (
               <div class="column is-6 has-text-centered">
                 <div class="columns ">
                   <div class="column is-full">
-                    <div id="feature-2" class="title is-3">Volume Driven Fee Protocol</div>
+                    <div id="feature-2" class="title is-3">
+                      Volume Driven Fee Protocol
+                    </div>
                   </div>
                 </div>
                 <div class="columns ">
                   <div class="column is-full">
                     <div class="subtitle">
                       <p>
-                        Volume stands a most important declarative of the price action within finance trading industry.
-                        Hence we have focussed on a reward mechanism that focusses majorly on the volume of tokens held 
-                        by an individual. Holders will enjoy rewards based on their holdings.
+                        Volume stands a most important declarative of the price
+                        action within finance trading industry. Hence we have
+                        focussed on a reward mechanism that focusses majorly on
+                        the volume of tokens held by an individual. Holders will
+                        enjoy rewards based on their holdings.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <StaticImage
+                class="image"
                 src="../../images/Rewards_640.png"
                 alt="adobe-stock-std-lic"
               />
             </div>
             <div class="columns  ">
               <StaticImage
+                class="image"
                 src="../../images/burn_once_orange_640.png"
                 alt="adobe-stock-std-lic"
               />
               <div class="column is-6 has-text-centered">
                 <div class="columns ">
                   <div class="column is-full">
-                    <div id="feature-3" class="title is-3">Burn Once - Supply All Strategy</div>
+                    <div id="feature-3" class="title is-3">
+                      Burn Once - Supply All Strategy
+                    </div>
                   </div>
                 </div>
                 <div class="columns ">
                   <div class="column is-full">
                     <div class="subtitle">
                       <p>
-                        Last but not the least. BOSA strategy is unique to <span class="title is-size-5">Space Coin</span>.
-                        It is this that enables the above two features of the token. With BOSA all developer tokens are burned at the time 
-                        of launch in order for a fair participation of everyone and no more burns allows for a highe circulating
-                        supply thereby increasing higher volume rewards.
+                        Last but not the least. BOSA strategy is unique to{" "}
+                        <span class="title is-size-5">Space Coin</span>. It is
+                        this that enables the above two features of the token.
+                        With BOSA all developer tokens are burned at the time of
+                        launch in order for a fair participation of everyone and
+                        no more burns allows for a highe circulating supply
+                        thereby increasing higher volume rewards.
                       </p>
                     </div>
                   </div>
