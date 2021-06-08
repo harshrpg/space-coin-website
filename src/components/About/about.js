@@ -4,14 +4,14 @@ const About = () => (
   <div>
     <section class="hero is-fullheight">
       <div class="hero-body container is-fluid">
-        <div class="columns is-mobile">
+        <div class="columns ">
           <div class="column is-full">
-            <div class="rows is-mobile">
+            <div class="rows-wrap">
               <div class="column is-full has-text-justified">
                 <p class="title is-size-1">About</p>
               </div>
             </div>
-            <div class="rows is-mobile">
+            <div class="columns ">
               <div class="column is-6">
                 <StaticImage
                   src="../../images/com_driven_640.png"
@@ -19,12 +19,12 @@ const About = () => (
                 />
               </div>
               <div class="column is-6 has-text-centered">
-                <div class="columns is-mobile">
+                <div class="columns ">
                   <div class="column is-full">
                     <div id="feature-1" class="title is-size-3">Community Driven</div>
                   </div>
                 </div>
-                <div class="columns is-mobile">
+                <div class="columns ">
                   <div class="column is-full">
                     <div class="subtitle">
                       <p>
@@ -36,14 +36,14 @@ const About = () => (
                 </div>
               </div>
             </div>
-            <div class="rows is-mobile ">
+            <div class="columns  ">
               <div class="column is-6 has-text-centered">
-                <div class="columns is-mobile">
+                <div class="columns ">
                   <div class="column is-full">
                     <div id="feature-2" class="title is-3">Volume Driven Fee Protocol</div>
                   </div>
                 </div>
-                <div class="columns is-mobile">
+                <div class="columns ">
                   <div class="column is-full">
                     <div class="subtitle">
                       <p>
@@ -60,18 +60,18 @@ const About = () => (
                 alt="adobe-stock-std-lic"
               />
             </div>
-            <div class="rows is-mobile ">
+            <div class="columns  ">
               <StaticImage
                 src="../../images/burn_once_orange_640.png"
                 alt="adobe-stock-std-lic"
               />
               <div class="column is-6 has-text-centered">
-                <div class="columns is-mobile">
+                <div class="columns ">
                   <div class="column is-full">
                     <div id="feature-3" class="title is-3">Burn Once - Supply All Strategy</div>
                   </div>
                 </div>
-                <div class="columns is-mobile">
+                <div class="columns ">
                   <div class="column is-full">
                     <div class="subtitle">
                       <p>

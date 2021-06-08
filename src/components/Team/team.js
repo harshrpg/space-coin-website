@@ -5,13 +5,13 @@ const Team = () => (
   <>
     <section class="hero">
       <div class="hero-body container is-fluid">
-        <div class="columns is-mobile">
+        <div class="columns ">
           <div class="column is-full">
             <p class="title is-size-1">Our Team</p>
           </div>
         </div>
       </div>
-      <div class="rows-wrap is-mobile has-text-centered">
+      <div class="rows-wrap  has-text-centered">
         <div class="column is-one-fifth">
           <div class="card">
             <div class="card-image">
@@ -30,7 +30,7 @@ const Team = () => (
                 </div>
               </div>
 
-              <div class="content rows is-mobile">
+              <div class="content rows ">
                 <div class="column">
                   <a>
                     <FontAwesomeIcon icon={["fab", "github"]} />
@@ -74,7 +74,7 @@ const Team = () => (
                 </div>
               </div>
 
-              <div class="content rows is-mobile">
+              <div class="content rows ">
                 <div class="column">
                   <a>
                     <FontAwesomeIcon icon={["fab", "github"]} />

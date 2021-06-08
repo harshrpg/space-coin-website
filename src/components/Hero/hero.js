@@ -6,14 +6,14 @@ const Hero = () => (
       <Navbar />
       <section class="hero is-fullheight-with-navbar">
         <div class="hero-body container">
-          <div class="columns is-mobile">
+          <div class="columns">
             <div class="column is-5">
-              <div class="columns is-mobile">
+              <div class="columns">
                 <div class="column is-full">
                   <p class="title is-size-1">Space Coin</p>
                 </div>
               </div>
-              <div class="columns is-mobile">
+              <div class="columns">
                 <div class="column is-full">
                   <p class="subtitle is-size-6">
                   Enter the new wave of Decentralized Finance.
@@ -22,7 +22,7 @@ const Hero = () => (
                   </p>
                 </div>
               </div>
-              <div class="columns is-mobile">
+              <div class="columns">
                 <div class="column is-full">
                 <button class="button is-danger">Buy Now</button>
                 </div>
