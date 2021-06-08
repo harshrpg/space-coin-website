@@ -45,7 +45,7 @@ const Navbar = () => {
             Roadmap
           </Link>
           <Link
-            to="/comingsoon"
+            to="/whitepaper"
             class="navbar-item"
             activeClassName="navbar-item"
           >
