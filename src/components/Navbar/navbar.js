@@ -8,15 +8,13 @@ const Navbar = () => {
   return (
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <Link class="navbar-item" to="/">
+        <a class="navbar-item" href="#">
           {/* <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> */}
           <StaticImage
             class="image"
-            src="https://bulma.io/images/bulma-logo.png"
-            width="112"
-            height="28"
+            src="../../images/Logo.png"
           />
-        </Link>
+        </a>
 
         <a
           onClick={() => {
@@ -67,7 +65,7 @@ const Navbar = () => {
         <div class="navbar-item">
           <div class="buttons">
             <a class="button is-danger">
-              <strong>Whitepaper</strong>
+              <strong>Buy Now</strong>
             </a>
           </div>
         </div>
