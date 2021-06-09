@@ -15,6 +15,7 @@ $title-family: "Righteous", sans-serif;
 $f1-color: #d32f2f;
 $f2-color: #fbc02d;
 $f3-color: #f4511e;
+$f4-color: #40c4ff;
 
 // html {
 //     overflow: hidden !important;
@@ -36,7 +37,6 @@ $f3-color: #f4511e;
 }
 
 body {
-  overflow-y: scroll;
   background-color: $bg-color;
 }
 
@@ -100,6 +100,20 @@ a:active {
 
 .navbar-menu {
   background-color: transparent !important;
+}
+
+.subsection {
+  padding: 25px 0px 5px 0px;
+  color: $f4-color !important;
+}
+
+.math {
+  padding: 20px !important;
+}
+
+ul {
+  list-style-type: circle;
+  color: #ffffff;
 }
 @import "~bulma/bulma.sass";
 // @import "bulmaCarousel.sass";
