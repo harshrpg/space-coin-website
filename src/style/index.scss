@@ -115,5 +115,10 @@ ul {
   list-style-type: circle;
   color: #ffffff;
 }
+
+.protocol {
+  // @include bordercolor;
+  padding: 50px !important;
+}
 @import "~bulma/bulma.sass";
 // @import "bulmaCarousel.sass";
