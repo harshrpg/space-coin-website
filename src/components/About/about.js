@@ -46,7 +46,7 @@ const About = () => (
                 <div class="columns ">
                   <div class="column is-full">
                     <div id="feature-2" class="title is-3">
-                      Volume Driven Fee Protocol
+                      Volume Driven Fee
                     </div>
                   </div>
                 </div>
@@ -54,11 +54,9 @@ const About = () => (
                   <div class="column is-full">
                     <div class="subtitle">
                       <p>
-                        Volume stands a most important declarative of the price
-                        action within finance trading industry. Hence we have
-                        focussed on a reward mechanism that focusses majorly on
-                        the volume of tokens held by an individual. Holders will
-                        enjoy rewards based on their holdings.
+                        Volume is one of the most important declarative of any token's price
+                        action. Hence we have focussed on a reward mechanism that focusses majorly on
+                        the volume of transactions and the amount of tokens held by an individual. 
                       </p>
                     </div>
                   </div>
@@ -87,14 +85,8 @@ const About = () => (
                 <div class="columns ">
                   <div class="column is-full">
                     <div class="subtitle">
-                      <p>
-                        Last but not the least. BOSA strategy is unique to{" "}
-                        <span class="title is-size-5">Space Coin</span>. It is
-                        this that enables the above two features of the token.
-                        With BOSA all developer tokens are burned at the time of
-                        launch in order for a fair participation of everyone and
-                        no more burns allows for a highe circulating supply
-                        thereby increasing higher volume rewards.
+                      <p>Any tokens that are left after the initial offerings and airdrops are burned to promote a fair community participation. Post this 
+                        no more burns are allowed. The idea behind is that a higher circulating volume promotes higher rewards.
                       </p>
                     </div>
                   </div>

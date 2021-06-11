@@ -37,7 +37,7 @@ const WhitePaper = () => (
       <div class="content">
         <p class="title is-size-3">Space Coin Whitepaper</p>
         <p class="subtitle is-size-7">
-          Static Rewards (Reflections), Non-Deflationary, Automatic LP
+          Static Rewards (Reflections), Burn Once - Supply All, Automatic LP
         </p>
         <p class="subtitle is-size-6 has-text-justified">
           Decentralized Finance recently has seen an influx of fee-on-transfer
@@ -68,7 +68,7 @@ const WhitePaper = () => (
           Rewards earned by a holder can be calculated as follows:
           <StaticImage
             class="image math"
-            src="../images/Nondefvolumecalc_white.png"
+            src="../images/formula_white.png"
             alt="roadmap-custom"
           />
           <p class="subtitle is-size-6 has-text-justified">
@@ -79,10 +79,10 @@ const WhitePaper = () => (
           </p>
           
         </p>
-        <p class="title is-size-5 subsection">Non Deflationary</p>
+        <p class="title is-size-5 subsection">Burn Once - Supply All</p>
         <p class="subtitle is-size-6 has-text-justified">
           <span class="title is-size-6">Space Coin</span> works on the concept
-          of only initial burn strategy. This means that there will be only one
+          of burn once strategy. This means that there will be only one
           burn in the entire lifetime of{" "}
           <span class="title is-size-6">Space Coin</span>. The one burn is
           performed in order to burn away the developer tokens to make this

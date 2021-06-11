@@ -14,9 +14,8 @@ const Hero = () => (
             <div class="columns">
               <div class="column is-full">
                 <p class="subtitle is-size-6">
-                  Enter the new wave of Decentralized Finance. Strongly
-                  researched and backed by mathematics, Space Coin is here to
-                  provide strong tokenomics to its holders.
+                  Enter the new wave of Decentralized Finance. Backed by strong research, Space Coin is here to
+                  provide powerful tokenomics to its holders.
                 </p>
               </div>
             </div>
