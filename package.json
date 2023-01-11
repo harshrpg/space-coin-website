@@ -30,7 +30,7 @@
     "gatsby-remark-katex": "^5.4.0",
     "gatsby-remark-mathjax": "^1.0.0",
     "gatsby-source-filesystem": "^3.6.0",
-    "gatsby-transformer-remark": "^4.4.0",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^3.6.0",
     "katex": "^0.13.11",
     "prop-types": "^15.7.2",
